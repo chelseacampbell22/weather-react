@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 export default function App() {
   let weatherData = {
@@ -61,6 +61,13 @@ export default function App() {
             <li>Humidity: {weatherData.humidity}%</li>
             <li>Wind: {weatherData.wind} km/h</li>
           </ul>
+          <a
+            href="https://github.com/chelseacampbell22/weather-react"
+            target="_blank"
+            rel="code"
+          >
+            Open-source code by Chelsea Campbell
+          </a>
         </div>
       </div>
     </div>
