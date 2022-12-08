@@ -64,16 +64,19 @@ export default function App() {
               <li>Humidity: {weatherData.humidity}%</li>
               <li>Wind: {weatherData.wind} km/h</li>
             </ul>
-            <a
-              href="https://github.com/chelseacampbell22/weather-react"
-              target="_blank"
-              rel="code"
-            >
-              Open-source code by Chelsea Campbell
-            </a>
           </div>
         </div>
-      </div>
+      </div>{" "}
+      <footer>
+        <a
+          href="https://github.com/chelseacampbell22/weather-react"
+          target="_blank"
+          rel="code"
+        >
+          Open-source code
+        </a>{" "}
+        by Chelsea Campbell
+      </footer>
     </div>
   );
 }
