@@ -4,9 +4,11 @@ export default function App() {
   let weatherData = {
     city: "Dallas",
     date: "Thursday 3:14PM",
+    temperature: 72,
     description: "Overcast",
     imgUrl:
       "https://i2-prod.derbytelegraph.co.uk/incoming/article3542320.ece/ALTERNATES/s810/5_Cloudy-Overcast.jpg",
+    precipitation: 20,
     humidity: 30,
     wind: 8,
   };
@@ -58,6 +60,7 @@ export default function App() {
           </div>
           <div className="col-6">
             <ul>
+              <li>Precipitation:{weatherData.precipitation}%</li>
               <li>Humidity: {weatherData.humidity}%</li>
               <li>Wind: {weatherData.wind} km/h</li>
             </ul>
